@@ -46,3 +46,30 @@ table {
 	border-spacing: 0;
 }
 /*end of reset*/
+
+.stan {
+    margin: 10px;
+    height: 20px;
+    padding: 5px;
+    background-color: azure;
+}
+
+#stan_in_a {
+    height: auto;
+    width: 200px;
+    position: absolute;
+    left: 20px;
+}
+
+#stan_in_b {
+    height: auto;
+    width: 150px;
+    position: absolute;
+}
+
+#stan_in_time {
+    height: auto;
+    width: 50px;
+    position: absolute;
+    right: 20px;
+}
