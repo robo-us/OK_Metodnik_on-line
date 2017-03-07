@@ -48,30 +48,38 @@ table {
 /*end of reset*/
 
 body {
-    font-size:12px;
+    font-size: 12px;
     font-family: Verdana, Geneva, sans-serif;
     line-height: 2em;
     background-color:#222;
-    color:#333;
-    padding:1em;
+    color: #333;
+    padding: 1em;
 }
 .stan {
+    height: 1em;
     padding: 1em;
     border: 1px solid #000;
     border-radius: 10px;
-    background-color: #F2C14E; 
+    background-color: #F2C14E;
+    margin: 2px 5px 2px 5px;
 }
 
 #stan_in_a {
-  
+    float: left;
+    width: 30%;
+    height: auto;
 }
 
 #stan_in_b {
-   
+    float: left;
+    width: 40%;
+    height: auto;
 }
 
 #stan_in_time {
-   
+    float: left;
+    width: 30%;
+    height: auto;
 }
 
 .mine_bar_up {
@@ -79,22 +87,65 @@ body {
     border: 1px solid #000;
     border-radius: 10px;
     background-color: #3E989B;
+    height: 40px;
+    margin: 5px;
 }
 
 #finish_time {
-    
+    float: left;
+    width: 33%;
+    height: 50px;
 }
 
 #chosen_number {
-    
+    float: left;
+    width: 33%;
+    height: 50px;
 }
 
 #i_need_help {
-    
+    float: left;
+    width: 33%;
+    height: 50px;
 }
 
 .right_bar {
+    float: right;
+    height: 500px;
+    width: 200px;
+    border: 1px solid #000;
+    background-color: #3E989B;
+    border-radius: 10px;
+    margin: 2px 5px 5px 5px;
+}
+
+#green_button {
     margin: 5px;
-    height: 600px;
-    width: 150px;
+    height: 150px;
+    width: 180px;
+    border-radius: 10px;
+    background-color: green;
+    border: 1px solid #3E989B;
+    box-shadow: 4px 4px 0 darkgreen;
+}
+
+#yellow_button {
+    margin: 5px;
+    height: 150px;
+    width: 180px;
+    border-radius: 10px;
+    background-color: yellow;
+    border: 1px solid #3E989B;
+    box-shadow: 4px 4px 0 orange;
+}
+
+#red_button {
+    margin: 5px;
+    height: 150px;
+    width: 180px;
+    border-radius: 10px;
+    background-color: red;
+    border: 1px solid #3E989B;
+    box-shadow: 4px 4px 0 brown;
+    
 }
