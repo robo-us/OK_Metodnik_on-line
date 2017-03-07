@@ -48,10 +48,11 @@ table {
 /*end of reset*/
 
 .stan {
-    margin: 10px;
+    margin: 5px;
     height: 20px;
     padding: 5px;
     background-color: azure;
+    
 }
 
 #stan_in_a {
@@ -72,4 +73,28 @@ table {
     width: 50px;
     position: absolute;
     right: 20px;
+}
+
+.mine_bar_up {
+    margin: 5px;
+    height: 100px;
+    background-color: cornsilk;
+}
+
+#finish_time {
+    
+}
+
+#chosen_number {
+    
+}
+
+#i_need_help {
+    
+}
+
+.right_bar {
+    margin: 5px;
+    height: 600px;
+    width: 150px;
 }
