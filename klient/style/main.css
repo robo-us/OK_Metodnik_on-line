@@ -45,13 +45,14 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
 /*end of reset*/
 
 body {
     font-size: 12px;
     font-family: Verdana, Geneva, sans-serif;
     line-height: 2em;
-    background-color:#222;
+    background-color: #222;
     color: #333;
     padding: 1em;
 }
@@ -62,6 +63,7 @@ body {
     border-radius: 10px;
     background-color: #F2C14E;
     margin: 2px 5px 2px 5px;
+    text-align: center;
 }
 
 #stan_in_a {
@@ -89,6 +91,7 @@ body {
     background-color: #3E989B;
     height: 40px;
     margin: 5px;
+    text-align: center;
 }
 
 #finish_time {
@@ -110,33 +113,40 @@ body {
 }
 
 .right_bar {
+    text-align: center;
     float: right;
     height: 500px;
     width: 200px;
-    border: 1px solid #000;
+    border: 1px solid #3E989B;
     background-color: #3E989B;
     border-radius: 10px;
     margin: 2px 5px 5px 5px;
 }
 
 #green_button {
-    margin: 5px;
+    margin: 5px 5px 10px 5px;
     height: 150px;
     width: 180px;
     border-radius: 10px;
     background-color: green;
-    border: 1px solid #3E989B;
-    box-shadow: 4px 4px 0 darkgreen;
+    border: 1px solid green;
+}
+
+#green_button:hover {
+    box-shadow: 5px 5px 0 darkgreen;
 }
 
 #yellow_button {
-    margin: 5px;
+    margin: 5px 5px 10px 5px;
     height: 150px;
     width: 180px;
     border-radius: 10px;
     background-color: yellow;
-    border: 1px solid #3E989B;
-    box-shadow: 4px 4px 0 orange;
+    border: 1px solid yellow;
+}
+
+#yellow_button:hover {
+    box-shadow: 5px 5px 0 orange;
 }
 
 #red_button {
@@ -145,7 +155,9 @@ body {
     width: 180px;
     border-radius: 10px;
     background-color: red;
-    border: 1px solid #3E989B;
-    box-shadow: 4px 4px 0 brown;
-    
+    border: 1px solid red;
+}
+
+#red_button:hover {
+    box-shadow: 5px 5px 0 brown;
 }
