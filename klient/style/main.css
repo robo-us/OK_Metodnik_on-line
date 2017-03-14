@@ -57,7 +57,7 @@ body {
     padding: 1em;
 }
 .stan {
-    height: 1em;
+    height: 20px;
     padding: 1em;
     border: 1px solid #000;
     border-radius: 10px;
@@ -79,6 +79,8 @@ body {
 }
 
 #stan_in_time {
+    font-size: 18px;
+    font-weight: bold;
     float: left;
     width: 30%;
     height: auto;

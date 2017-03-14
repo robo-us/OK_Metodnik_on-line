@@ -1,6 +1,11 @@
-function myFunction() {
-    var x = document.createElement("STYLE");
-    var t = document.createTextNode("body {font: 20px verdana;}");
-    x.appendChild(t);
-    document.head.appendChild(x);
+function bodyGreen() {
+    document.body.style.backgroundColor = "green";
+}
+
+function bodyYellow() {
+    document.body.style.backgroundColor = "yellow";
+}
+
+function bodyRed() {
+    document.body.style.backgroundColor = "red";
 }
