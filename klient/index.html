@@ -6,12 +6,13 @@
     <link rel="stylesheet" href="style/main.css">
     <script src="scripts/right.js"></script>
     <script src="scripts/time.js"></script>
+    <script src="scripts/ip.js"></script>
 </head>
 <body>
     <!-- Bar with state, name of school, time etc  -->
     <div class="stan">
         <div class="stan_in" id="stan_in_a"><p>Szkoła Podstawowa nr 15</p></div>
-        <div class="stan_in" id="stan_in_b"><p>Numer stanowiska</p></div>
+        <div class="stan_in" id="stan_in_ip"><p>Adres IP</p></div>
         <div class="stan_in" id="stan_in_time"><p>Czas</p></div>
     </div>
     <!-- Main up bar with time to finish, number, who needs help   -->
@@ -22,9 +23,9 @@
     </div>
     <!-- Right side bar with button (green, yellow, red)   -->
     <div class="right_bar">
-        <div class="right_bar_in" id="green_button" onClick="bodyGreen()"></div>
-        <div class="right_bar_in" id="yellow_button" onClick="bodyYellow()" ></div>
-        <div class="right_bar_in" id="red_button" onClick="bodyRed()"></div>
+        <button class="right_bar_in" id="green_button" onClick="bodyGreen()"></button>
+        <button class="right_bar_in" id="yellow_button" onClick="bodyYellow()" ></button>
+        <button class="right_bar_in" id="red_button" onClick="bodyRed()"></button>
     </div>
     <!-- Main box with all comp   -->
 </body>
