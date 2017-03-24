@@ -57,6 +57,8 @@ body {
     padding: 1em;
 }
 .stan {
+    font-size: 18px;
+    font-weight: bold;
     height: 20px;
     padding: 1em;
     border: 1px solid #000;
@@ -73,16 +75,12 @@ body {
 }
 
 #stan_in_ip {
-    font-size: 18px;
-    font-weight: bold;
     float: left;
     width: 40%;
     height: auto;
 }
 
 #stan_in_time {
-    font-size: 18px;
-    font-weight: bold;
     float: left;
     width: 30%;
     height: auto;
@@ -119,7 +117,7 @@ body {
 .right_bar {
     text-align: center;
     float: right;
-    height: 500px;
+    height: 655px;
     width: 200px;
     border: 1px solid #3E989B;
     background-color: #3E989B;
@@ -164,4 +162,17 @@ body {
 
 #red_button:hover {
     box-shadow: 5px 5px 0 brown;
+}
+
+#reset {
+    margin: 5px;
+    height: 150px;
+    width: 180px;
+    border-radius: 10px;
+    background-color: #222;
+    border: 1px solid #222;
+}
+
+#reset:hover {
+    box-shadow: 5px 5px 0 #555555;
 }
