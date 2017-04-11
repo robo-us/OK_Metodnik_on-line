@@ -1,0 +1,178 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*end of reset*/
+
+body {
+    font-size: 12px;
+    font-family: Verdana, Geneva, sans-serif;
+    line-height: 2em;
+    background-color: #222;
+    color: #333;
+    padding: 1em;
+}
+.stan {
+    font-size: 18px;
+    font-weight: bold;
+    height: 20px;
+    padding: 1em;
+    border: 1px solid #000;
+    border-radius: 10px;
+    background-color: #F2C14E;
+    margin: 2px 5px 2px 5px;
+    text-align: center;
+}
+
+#stan_in_a {
+    float: left;
+    width: 30%;
+    height: auto;
+}
+
+#stan_in_ip {
+    float: left;
+    width: 40%;
+    height: auto;
+}
+
+#stan_in_time {
+    float: left;
+    width: 30%;
+    height: auto;
+}
+
+.mine_bar_up {
+    padding: 2em;
+    border: 1px solid #000;
+    border-radius: 10px;
+    background-color: #3E989B;
+    height: 40px;
+    margin: 5px;
+    text-align: center;
+}
+
+#finish_time {
+    float: left;
+    width: 33%;
+    height: 50px;
+}
+
+#chosen_number {
+    float: left;
+    width: 33%;
+    height: 50px;
+}
+
+#i_need_help {
+    float: left;
+    width: 33%;
+    height: 50px;
+}
+
+.right_bar {
+    text-align: center;
+    float: right;
+    height: 655px;
+    width: 200px;
+    border: 1px solid #3E989B;
+    background-color: #3E989B;
+    border-radius: 10px;
+    margin: 2px 5px 5px 5px;
+}
+
+#green_button {
+    margin: 5px 5px 10px 5px;
+    height: 150px;
+    width: 180px;
+    border-radius: 10px;
+    background-color: green;
+    border: 1px solid green;
+}
+
+#green_button:hover {
+    box-shadow: 5px 5px 0 darkgreen;
+}
+
+#yellow_button {
+    margin: 5px 5px 10px 5px;
+    height: 150px;
+    width: 180px;
+    border-radius: 10px;
+    background-color: yellow;
+    border: 1px solid yellow;
+}
+
+#yellow_button:hover {
+    box-shadow: 5px 5px 0 orange;
+}
+
+#red_button {
+    margin: 5px;
+    height: 150px;
+    width: 180px;
+    border-radius: 10px;
+    background-color: red;
+    border: 1px solid red;
+}
+
+#red_button:hover {
+    box-shadow: 5px 5px 0 brown;
+}
+
+#reset {
+    margin: 5px;
+    height: 150px;
+    width: 180px;
+    border-radius: 10px;
+    background-color: #222;
+    border: 1px solid #222;
+}
+
+#reset:hover {
+    box-shadow: 5px 5px 0 #555555;
+}
