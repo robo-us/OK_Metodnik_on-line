@@ -13,3 +13,7 @@ function bodyRed() {
 function bodyReset() {
     document.body.style.backgroundColor = "#222";
 }
+
+function randomComp() {
+	
+}

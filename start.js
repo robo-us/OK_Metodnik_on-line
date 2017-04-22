@@ -1,4 +1,7 @@
-var express	= require('express');
+var WebSocketServer = require('ws').Server;
+var wss = new WebSocketServer({port: 3000});
+//Poniżej zmiana z serwera express na WebSocket do działania aplikacji webowej
+/*var express	= require('express');
 var path = require('path');
 var app = express();
 
@@ -14,4 +17,4 @@ app.get('/serwer', function(req, res) {
 
 app.listen(3000, function() {
 	console.log('Serwer działa prawidłowo');
-});
+});*/

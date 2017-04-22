@@ -7,6 +7,7 @@
     <script src="/scripts/right.js"></script>
     <script src="/scripts/time.js"></script>
     <script src="/scripts/ip.js"></script>
+    <script src="/scripts/app.js"></script>
 </head>
 <body>
     <!-- Bar with state, name of school, time etc  -->
@@ -23,9 +24,10 @@
     </div>
     <!-- Right side bar with button (green, yellow, red)   -->
     <div class="right_bar">
-        <input type="number" id="eventMinutes" name="minuty" value="00">Minuty
-        <input type="number" id="evntSeconds" name="sekundy" value="00">Sekundy
-        <button id="random">losowanie</button>
+        Minuty<input type="number" id="eventMinutes" name="minuty" value="00">
+        Sekundy<input type="number" id="eventSeconds" name="sekundy" value="00">
+        <button id="setTime" onclick="setTime()">Ustaw czas</button>
+        <button id="randomComp" onclick="randomComp()">Losuj komputer</button>
     </div>
     <!-- Main box with all comp   -->
 </body>

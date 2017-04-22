@@ -125,9 +125,11 @@ body {
     margin: 2px 5px 5px 5px;
 }
 
-#green_button {
+#eventMinutes {
+    text-align: center;
+    font-size: 38px;
     margin: 5px 5px 10px 5px;
-    height: 150px;
+    height: 40px;
     width: 180px;
     border-radius: 10px;
     background-color: green;
@@ -138,9 +140,11 @@ body {
     box-shadow: 5px 5px 0 darkgreen;
 }
 
-#yellow_button {
+#eventSeconds {
+    text-align: center;
+    font-size: 38px;
     margin: 5px 5px 10px 5px;
-    height: 150px;
+    height: 40px;
     width: 180px;
     border-radius: 10px;
     background-color: yellow;
@@ -151,28 +155,31 @@ body {
     box-shadow: 5px 5px 0 orange;
 }
 
-#red_button {
+#setTime {
+    font-size: 18px;
     margin: 5px;
-    height: 150px;
+    height: 40px;
     width: 180px;
     border-radius: 10px;
     background-color: red;
     border: 1px solid red;
 }
 
-#red_button:hover {
+#setTime:hover {
     box-shadow: 5px 5px 0 brown;
 }
 
-#reset {
+#randomComp {
+    font-size: 18px;
+    color: white;
     margin: 5px;
-    height: 150px;
+    height: 40px;
     width: 180px;
     border-radius: 10px;
     background-color: #222;
     border: 1px solid #222;
 }
 
-#reset:hover {
+#randomComp:hover {
     box-shadow: 5px 5px 0 #555555;
 }
